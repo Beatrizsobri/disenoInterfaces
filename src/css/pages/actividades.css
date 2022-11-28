@@ -1,0 +1,104 @@
+/* FILTROS */
+.menu {
+    margin-top: 28px;
+    border-bottom: solid 1px #DAF2EF;
+}
+
+.menu_listado {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 47px;
+    grid-template-columns: 293px 293px 293px 293px;
+    grid-column-gap: 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.menu_listado_elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAF2EF;
+    border-radius: 10px;
+}
+
+
+/* ACTIVIDADES */
+
+.listado {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 213px 213px;
+    grid-template-columns: 293px 293px 293px 293px;
+    grid-column-gap: 24px;
+    grid-row-gap: 16px;
+    margin: 53px 0;
+}
+
+.actividad {
+    border: solid 1px #128277;
+    border-radius: 16px;
+    padding: 16px
+}
+
+/* REVISAR IMAGENES */
+.actividad_imagen {
+    width: 257px;
+    height: 98px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.actividad_titulo {
+    font-size: 20px;
+    color: #128277;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.actividad_contenido {
+    font-size: 12px;
+    line-height: 12px;
+    color: #128277;
+    font-weight: 400;
+    max-height: 35px;
+    overflow: hidden;
+}
+
+.actividad_icono {
+    color: #128277;
+    position: relative;
+    float: right;
+    font-size: 24px;
+}
+
+/* PAGINACION */
+
+.paginacion_contenedor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.paginacion_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.paginacion_pagina {
+    height: 48px;
+    width: 48px;
+    background-color: #DAF2EF;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seleccionado {
+    background-color: #128277;
+}
