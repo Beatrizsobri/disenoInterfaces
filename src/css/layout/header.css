@@ -9,14 +9,14 @@
     
   }
 
-  .menu{
+  .menuh{
 
     display:flex;
     gap:132px;
     
   }
 
-  .menu a{
+  .menuh a{
 
     
     text-decoration: none;
