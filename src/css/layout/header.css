@@ -1,0 +1,27 @@
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 98px 24px 96px;
+    align-items: center;
+    border-bottom: 6px solid  #DAF2EF;
+   
+    
+  }
+
+  .menu{
+
+    display:flex;
+    gap:30px;
+    
+  }
+
+  .menu a{
+
+    display:flex;
+    text-decoration: none;
+    font-size:40px;
+    color: #128277;
+    font-family: "Overpass";
+  
+  }
