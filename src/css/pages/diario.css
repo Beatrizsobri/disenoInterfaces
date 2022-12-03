@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 98px 24px 96px;
+    align-items: center;
+    border-bottom: 4px solid  #DAF2EF;
+    
+  }
+
+  .menu{
+
+    display:flex;
+    gap:30px;
+    
+  }
+
+  .menu a{
+
+    display:flex;
+    text-decoration: none;
+    font-size:40px;
+    color: #128277;
+    font-family: "Overpass";
+  
+  }
+
+  p {
+
+    font-family:"Poppins";
+    color:#128277;
+
+  }
+
+  .vBoton {
+    height: 47px;
+    width: 293px;
+    left: 37px;
+    top: 448px;
+    border-radius: 10px;
+    padding: 16px;
+
+
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .ver {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .escribir {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .vDiario {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 30px 20px 30px;
+    height: auto;
+    margin: 148px 29px 50px 47px;
+    background-color: #DAF2EF;
+    width: 360px;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    
+  }
+
+  .eDiario {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px 30px 20px 30px;
+    height: auto;
+    margin: 148px 29px 50px 47px;
+    background-color: #DAF2EF;
+    width: 360px;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    
+  }
+
+  .eImg {
+
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    
+  }
+
+  .vImg {
+
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    
+  }
+
+  .eImg img{
+    width: 85px;
+    height: 100px;
+  }
