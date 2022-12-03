@@ -1,0 +1,131 @@
+
+  .contenedor{
+    height: 100vh;
+    margin: auto 97px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    font-family: 'Overpass';
+    font-style: normal;
+    color: #128277;
+  }
+
+  .hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-right: 20%;
+  }
+
+  .textoHero {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+    padding-top: 40%;
+  }
+  .heroContenido {
+    display: flex;
+    flex-direction: flex-start;
+  }
+  .heroRegistro {
+    padding-top: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+  .registro{
+    background: #ED5C18;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 70%;
+    height: 180%;
+    color: #FFFFFF;
+  }
+
+  .heroImagen{
+    margin: 1%;
+  }
+
+  .listadoCaracteristicas {
+    display: grid;
+    grid-column-gap: 32px;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    align-items: baseline;
+    margin: 53px;
+    background: #DAF2EF;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding: 3%;
+    font-family: 'Overpass';
+    font-style: normal;
+}
+.caracteristicasTitulo {
+    font-size: 20px;
+    color: #128277;
+}
+.caracteristicasContenido{
+    color: #128277;
+
+}
+.nuestrosEspecialistasTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.imagenesEspecialistas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+.imagen{  
+    margin: 8px;
+    justify-content: space-around;
+    max-width: 188;
+    max-height: 156;
+  }
+.imagenNuestrosEspecialistas{
+    border-radius: 16px;
+    object-fit: contain;
+}
+
+.iconosPrensa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.prensaTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.textoFinal{
+    font-size: 20px;
+    color: #128277;
+}
+
+@media only screen and (max-width: 575px) {
+  .imagenesEspecialistas{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iconosPrensa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
