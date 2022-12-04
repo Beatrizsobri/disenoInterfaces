@@ -19,7 +19,7 @@
      font-family: 'Heebo';
      font-style: normal;
      font-weight: 400;
-     font-size: 12px;
+     font-size: 20px;
      line-height: 100%;
      font-family: 'Heebo';
  }
@@ -28,6 +28,7 @@
      transition: transform 2s ease 0s ;
      margin-left: 40%;
      background-color: #ED5C18;
+     color: #FFFFFF;
      height: 47px;
      width: 299px;
      left: 566px;
