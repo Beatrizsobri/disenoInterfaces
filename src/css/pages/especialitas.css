@@ -32,6 +32,27 @@ body {
      font-weight: 400;
      font-size: 16px;
      line-height: 100%;
+     font-size: 20px;
+     line-height: 100%;
+     font-family: 'Heebo';
+ }
+ .boton{
+     cursor: pointer;
+     transition: transform 2s ease 0s ;
+     margin-left: 40%;
+     background-color: #ED5C18;
+     color: #FFFFFF;
+     height: 47px;
+     width: 299px;
+     left: 566px;
+     top: px;
+     border-radius: 10px;
+     padding: 16px;
+     font-family: 'Hind';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 140%;
      
  }
  
